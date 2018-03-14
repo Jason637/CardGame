@@ -21,4 +21,28 @@ public class Card
         this.suit=suit;
         this.value=value;
     }
+
+    /**
+     * gets suit
+     * @return suit as string
+     */
+    public String getSuit() {
+        return suit;
+    }
+
+    /**
+     * Gets rank
+     * @return rank as string
+     */
+    public String getRank() {
+        return rank;
+    }
+
+    /**
+     * gets value
+     * @return value as a int
+     */
+    public int getValue() {
+        return value;
+    }
 }
